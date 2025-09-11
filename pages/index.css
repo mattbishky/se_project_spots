@@ -3,3 +3,26 @@
 @import url(../blocks/page.css);
 
 @import url(../vendor/fonts.css);
+
+@import url(../blocks/cards.css);
+
+@import url(../blocks/header.css);
+
+@import url(../blocks/footer.css);
+
+@media screen and (max-width: 1440px) {
+  .header {
+    width: 1280;
+    height: 210;
+    top: 80px;
+    left: 80px;
+    justify-content: space-between;
+    opacity: 1;
+    border-bottom-width: 1px;
+    padding-bottom: 20px;
+  }
+}
+
+main {
+  padding: 0 20px;
+}

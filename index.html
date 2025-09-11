@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     <meta
       name="description"
       content="A beautiful photo gallery showcasing amazing spots around the world."
@@ -18,12 +18,124 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <div class="header__profile">
+          <img src="./images/spots-images/avatar.jpg" alt="Bessie Coleman" />
+          <div class="header__caption">
+            <h2 class="header__caption-title">Bessie Coleman</h2>
+            <p class="header__caption-subtitle">Civil Aviator</p>
+            <p class="header__caption-edit">
+              <img src="./images/spots-images/Edit Icon.png" /> Edit Profile
+            </p>
+          </div>
+        </div>
+        <button class="header__button">
+          <img src="./images/spots-images/Plus icon.png" /> New Post
+        </button>
+      </header>
       <main class="content">
         <section class="profile"></section>
-        <section class="cards"></section>
+        <section class="cards">
+          <div class="card">
+            <img
+              class="card-image"
+              alt="Snowy House in Mountains"
+              src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Val Thorens</h2>
+              <img
+                src="./images/spots-images/Union.png"
+                alt="Heart Like Button"
+                class="cards__button"
+              />
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              alt="Restaurant Terrace"
+              src="./images/spots-images/2-photo-by-ceiline-from-pexels.jpg"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Restaurant Terrace</h2>
+              <img
+                src="./images/spots-images/Union.png"
+                alt="Heart Like Button"
+                class="cards__button"
+              />
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              alt="Outdoor Cafe"
+              src="./images/spots-images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+            />
+            <div class="card-content">
+              <h2 class="card-title">An outdoor cafe</h2>
+              <img
+                src="./images/spots-images/Union.png"
+                alt="Heart Like Button"
+                class="cards__button"
+              />
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              alt="Long Bridge over forest"
+              src="./images/spots-images/4-photo-by-maurice-laschet-from-pexels.jpg"
+            />
+            <div class="card-content">
+              <h2 class="card-title">A very long bridge, over the forest...</h2>
+              <img
+                src="./images/spots-images/Union.png"
+                alt="Heart Like Button"
+                class="cards__button"
+              />
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              alt="Windowed Tunnel"
+              src="./images/spots-images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Tunnel with morning light</h2>
+              <img
+                src="./images/spots-images/Union.png"
+                alt="Heart Like Button"
+                class="cards__button"
+              />
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-image"
+              alt="Log cabin in Snowy Mountains"
+              src="./images/spots-images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Mountain house</h2>
+              <img
+                src="./images/spots-images/Union.png"
+                alt="Heart Like Button"
+                class="cards__button"
+              />
+            </div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <p class="footer-content">2023 Spots</p>
+      </footer>
     </div>
   </body>
 </html>

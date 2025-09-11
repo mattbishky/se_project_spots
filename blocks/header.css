@@ -1,0 +1,51 @@
+@media screen and (max-width: 1440px) {
+  .header__button {
+    bottom: 0px;
+    right: 0px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+.header__profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__caption {
+  display: flex;
+  flex-direction: column;
+}
+.header__caption :last-child {
+  display: flex;
+  align-items: end;
+}
+
+.header__button {
+  background-color: black;
+  color: white;
+}
+
+.header__caption-title {
+  margin: 0;
+  padding: 0;
+}
+
+.header__caption-subtitle {
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
+.header__caption-edit {
+  color: gray;
+}
