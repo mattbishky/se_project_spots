@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 
-.header__button {
+.header__post-button {
   display: flex;
   align-items: center;
   gap: 8px;
