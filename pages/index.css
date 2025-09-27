@@ -13,7 +13,7 @@
 @import url(../blocks/profile.css);
 
 @media screen and (max-width: 1440px) {
-  .header {
+  .profile {
     width: 1280;
     height: 210;
     top: 80px;

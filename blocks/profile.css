@@ -1,5 +1,5 @@
 @media screen and (max-width: 1440px) {
-  .header__button {
+  .profile__button {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -17,7 +17,7 @@
 @media screen and (max-width: 320px) {
 }
 
-.header {
+.profile {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid gray;
@@ -25,13 +25,13 @@
   padding: 10px 20px;
 }
 
-.header__profile {
+.profile__profile {
   display: flex;
   flex-direction: row;
   align-items: stretch;
 }
 
-.header__image {
+.profile__image {
   margin-right: 16px;
   width: 15vw;
   aspect-ratio: 1 / 1;
@@ -40,21 +40,21 @@
   border-radius: 6px;
 }
 
-.header__caption {
+.profile__caption {
   display: flex;
   flex-direction: column;
 }
 
-.header__caption-title {
+.profile__caption-title {
   margin: 0;
 }
 
-.header__caption-subtitle {
+.profile__caption-subtitle {
   margin: 4px 0 0 0;
   color: gray;
 }
 
-.header__caption-edit {
+.profile__caption-edit {
   margin-top: auto;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 
-.header__post-button {
+.profile__post-button {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -79,6 +79,6 @@
   align-self: flex-end;
 }
 
-.header__button:hover {
+.profile__button:hover {
   background-color: #333;
 }

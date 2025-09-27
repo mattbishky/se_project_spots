@@ -1,11 +1,10 @@
-.header__bar {
-  background-color: white;
-  margin: 0;
+.header {
   display: flex;
   justify-content: center;
-  top: -2.5%;
+  background-color: white;
+  margin: 0;
 }
 
-.header__bar-img {
+.header__img {
   width: 107px;
 }
