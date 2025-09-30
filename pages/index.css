@@ -12,6 +12,8 @@
 
 @import url(../blocks/profile.css);
 
+@import url(../blocks/cards.css);
+
 @media screen and (max-width: 1440px) {
   .profile {
     width: 1280;
