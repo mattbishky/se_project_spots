@@ -1,0 +1,13 @@
+@media screen and (max-width: 320px) {
+  .cards {
+    display: flex;
+    align-items: center;
+  }
+}
+.cards {
+  display: grid;
+  grid-template-columns: calc((100% - 40px) / 3) calc((100% - 40px) / 3) calc(
+      (100% - 40px) / 3
+    );
+  gap: 20px;
+}

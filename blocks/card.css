@@ -1,32 +1,11 @@
-@media screen and (max-width: 1440px) {
-  .cards {
-    display: grid;
-    grid-template-columns: calc((100% - 40px) / 3) calc((100% - 40px) / 3) calc(
-        (100% - 40px) / 3
-      );
-    /* grid-template-rows: calc((100% - 40px) / 3) calc((100% - 40px) / 3) calc(
-        (100% - 40px) / 3
-      ); */
-    gap: 20px;
-  }
-  .card-title {
-    font-size: 20px;
-  }
-}
-
 @media screen and (max-width: 320px) {
-  .cards {
-    display: flex;
-    align-items: center;
-  }
-
   .card-title {
     font-size: 16px;
   }
 }
 
-.cards {
-  border-bottom: 1px solid gray;
+.card-title {
+  font-size: 20px;
 }
 .card__image {
   max-width: 100%;
@@ -43,6 +22,5 @@
   justify-content: space-between;
   align-items: baseline;
   overflow: hidden;
-  /* white-space: nowrap; */
   text-overflow: ellipsis;
 }
