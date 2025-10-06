@@ -1,8 +1,8 @@
 @import url(../vendor/normalize.css);
 
-@import url(../blocks/page.css);
-
 @import url(../vendor/fonts.css);
+
+@import url(../blocks/page.css);
 
 @import url(../blocks/card.css);
 
@@ -13,20 +13,3 @@
 @import url(../blocks/profile.css);
 
 @import url(../blocks/cards.css);
-
-@media screen and (max-width: 1440px) {
-  .profile {
-    width: 1280;
-    height: 210;
-    top: 80px;
-    left: 80px;
-    justify-content: space-between;
-    opacity: 1;
-    border-bottom-width: 1px;
-    padding-bottom: 20px;
-  }
-}
-
-main {
-  padding: 0 20px;
-}

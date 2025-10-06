@@ -1,28 +1,17 @@
-@media screen and (max-width: 1440px) {
-  .profile__button {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background-color: black;
-    color: white;
-    padding: 8px 14px;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 500;
-    align-self: flex-end;
-  }
-}
-
-@media screen and (max-width: 320px) {
-}
-
 .profile {
   display: flex;
+  border-bottom: 1px solid #21212166;
+
+  padding: 34px 0 20px;
+
+  width: 1280;
+  height: 210;
+  top: 80px;
+  left: 80px;
   justify-content: space-between;
-  border-bottom: 1px solid gray;
-  margin-bottom: 20px;
-  padding: 10px 20px;
+  opacity: 1;
+  border-bottom-width: 1px;
+  padding-bottom: 20px;
 }
 
 .profile__profile {
@@ -32,12 +21,12 @@
 }
 
 .profile__image {
-  margin-right: 16px;
-  width: 15vw;
+  margin-right: 20px;
+  width: 190px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .profile__caption {
@@ -46,39 +35,65 @@
 }
 
 .profile__caption-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  max-width: 420px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: #212121;
   margin: 0;
 }
 
 .profile__caption-subtitle {
-  margin: 4px 0 0 0;
-  color: gray;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #212121b2;
+  opacity: 0.3;
+  margin: 12px 0 0;
 }
 
 .profile__caption-edit {
+  background-color: transparent;
   margin-top: auto;
   display: flex;
   align-items: center;
   gap: 6px;
   color: gray;
-  font-size: 0.9rem;
+  font-size: 16px;
   cursor: pointer;
 }
 
 .profile__post-button {
+  margin-left: auto;
+  justify-content: center;
   display: flex;
   align-items: center;
   gap: 8px;
-  background-color: black;
+  background-color: #212121;
+  color: #fcf5e5;
   color: white;
+  width: 157px;
+  height: 52px;
   padding: 8px 14px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 500;
   align-self: flex-end;
 }
 
-.profile__button:hover {
+.profile__post-button:hover {
   background-color: #333;
+}
+
+@media screen and (max-width: 627px) {
 }

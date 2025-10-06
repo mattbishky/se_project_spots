@@ -1,1 +1,9 @@
-/* I'm not sure what you want me to move into this class */
+.content {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 627px) {
+  .content {
+    padding: 0 16px;
+  }
+}
