@@ -48,23 +48,24 @@
   font-size: 16px;
   line-height: 100%;
   color: #212121b2;
-  opacity: 0.3;
   margin: 12px 0 0;
 }
 
 .profile__caption-edit {
+  opacity: 70%;
+  border: none;
   background-color: transparent;
   margin-top: auto;
   display: flex;
   align-items: center;
   gap: 6px;
-  color: gray;
+  color: #212121;
   font-size: 16px;
   cursor: pointer;
 }
 
 .profile__caption-edit:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .profile__post-button {
@@ -92,8 +93,38 @@
 }
 
 @media screen and (max-width: 627px) {
-  .profie {
-    display: flex;
+  .profile {
     flex-direction: column;
+    align-items: center;
+    max-width: 288px;
+    padding-top: 20px;
+  }
+
+  .profile__image {
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    margin: 0 0 12px 0;
+  }
+
+  .profile__caption {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile__caption-title {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 6px;
+  }
+
+  .profile__caption-subtitle {
+    text-align: center;
+    margin: 0 0 32px;
+  }
+
+  .profile__post-button {
+    margin: 0 auto;
+    width: 100%;
   }
 }
