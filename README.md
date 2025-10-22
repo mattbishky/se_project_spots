@@ -22,4 +22,7 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 https://mattbishky.github.io/se_project_spots/
 
+Check out [this video](https://drive.google.com/file/d/1oAEL2QCNZdsRBIGY4Fxh41ASY-HMbV9w/view?usp=sharing), where I describe my
+project and some challenges I faced while building it.
+
 Good luck and have fun!
